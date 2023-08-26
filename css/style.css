@@ -276,6 +276,32 @@ a:hover{
     }
 }
 
+.font-color-grey{
+    color: #88570a;
+}
+
+/*** About ***/
+@media (min-width: 992px) {
+    .about-text-intro-text  {
+        padding-right: calc(((100% - 960px) / 2) + .75rem);
+    }
+    .about-text-intro-text h1{
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-text-intro-text  {
+        padding-right: calc(((100% - 1140px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1400px) {
+    .about-text-intro-text  {
+        padding-right: calc(((100% - 1320px) / 2) + .75rem);
+    }
+}
+
 
 /*** Feature ***/
 @media (min-width: 992px) {
@@ -744,4 +770,8 @@ section.wow.fadeIn{
 .alt-font {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+}
+video {
+    max-width: 100%;
+    height: auto;
 }
