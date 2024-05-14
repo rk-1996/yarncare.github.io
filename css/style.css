@@ -250,6 +250,19 @@ a:hover{
     background-size: cover;
 }
 
+.page-header-why-choose-us{
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/yarn-care-exports-why-choose-us.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.font-dropdown-menu{
+    font-size: 13px;
+}
+
+.image-partner{
+    border-radius: 10px;
+}
+
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }
