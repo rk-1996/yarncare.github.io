@@ -255,6 +255,24 @@ a:hover{
     background-size: cover;
 }
 
+.paper-cones-tubes-list-items{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+}
+
+.page-header-paper-tubes{
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/yarn-care-export-paper-tubes-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-quality-control{
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/yarn-care-export-quality-control-banner.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .font-dropdown-menu{
     font-size: 13px;
 }
@@ -762,6 +780,11 @@ section.wow.fadeIn{
     margin: 0 0 10px 0;
     font-weight: 500;
     font-size: 13px;
+}
+
+.padding-container-fluid-paper-tubes{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .list-style-5 {
