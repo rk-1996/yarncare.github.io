@@ -273,6 +273,11 @@ a:hover{
     background-size: cover;
 }
 
+.page-header-producion-tour{
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/yarn-care-export-production-tour-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .font-dropdown-menu{
     font-size: 13px;
 }
@@ -839,6 +844,10 @@ section.wow.fadeIn{
 video {
     max-width: 100%;
     height: auto;
+}
+
+video .height-full-tour{
+    height: 240px;
 }
 
 .specification-hedaer-text{
